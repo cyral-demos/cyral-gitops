@@ -1,0 +1,5 @@
+meta:
+  name: Sales Data
+data:
+  - SALES_CUSTOMER
+rules: []
