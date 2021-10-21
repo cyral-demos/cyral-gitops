@@ -1,0 +1,23 @@
+meta:
+  name: Sensitive fields
+data:
+  - SENSITIVE
+rules:
+  - identities:
+      groups:
+        - Accounting
+    reads:
+      - data:
+          - SENSITIVE
+        rows: 5
+        severity: low
+    updates:
+      - data:
+          - SENSITIVE
+        rows: 1
+        severity: medium
+    deletes:
+      - data:
+          - SENSITIVE
+        rows: 1
+        severity: medium

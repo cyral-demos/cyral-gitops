@@ -1,0 +1,5 @@
+SENSITIVE:
+  - repo: customers
+    attributes:
+      - public.customers.name
+      - public.customers.email

@@ -1,0 +1,4 @@
+SALES_CUSTOMER:
+  - repo: sales
+    attributes:
+      - public.sales.customer_id

@@ -1,0 +1,10 @@
+meta:
+  name: Sales Data
+data:
+  - SALES_CUSTOMER
+rules:
+  - reads:
+      - data:
+          - SALES_CUSTOMER
+        rows: 5
+        severity: high
