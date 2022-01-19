@@ -6,7 +6,7 @@ rules:
   - identities:
       groups:
         - Accounting
-          DevOps
+        - DevOps
     reads:
       - data:
           - SENSITIVE
