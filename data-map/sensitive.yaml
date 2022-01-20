@@ -4,5 +4,5 @@ SENSITIVE:
       - public.customers.name
       - public.customers.email
   - repo: products
-  - attributes:
+    attributes:
       - public.products.cost
