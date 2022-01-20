@@ -3,3 +3,6 @@ SENSITIVE:
     attributes:
       - public.customers.name
       - public.customers.email
+  - repo: products
+  - attributes:
+      - public.products.cost
